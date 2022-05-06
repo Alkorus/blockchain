@@ -1,0 +1,30 @@
+{
+  "name": "5d3.blockchain",
+  "version": "1.0.0",
+  "description": "Exemple Blockchain  pour le cours 5D3",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yannick Charron",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "chance": "^1.1.8",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.5",
+    "delay": "^5.0.0",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.17.1",
+    "merkletreejs": "^0.2.31",
+    "node-cache": "^5.1.2",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.1.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.9"
+  }
+}
